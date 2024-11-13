@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi humilde critica a "Robot Salvaje" 🤖</title>
+    <title>Home</title>
+    <link rel="icon" href="./images/blog-logo2.svg" type="image/x-icon" />
     <style>
       body {
         font-family: Satoshi, sans-serif;
@@ -36,14 +37,48 @@
 
       h2 {
         text-align: center;
-        margin-top: 20px;
         font-weight: 500;
         font-size: 2rem;
+      }
+
+      h3 {
+        font-size: 1.7rem;
+        font-weight: 700;
       }
 
       h2 span {
         color: #ff0000;
         font-weight: 700;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        margin: 16px auto;
+        max-width: 900px;
+        justify-content: space-between;
+      }
+
+      .card img {
+        border-radius: 8px;
+        margin-right: 50px;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+      }
+
+      .card-description {
+        width: 100%;
+        margin-left: 50px;
       }
     </style>
   </head>
@@ -51,8 +86,11 @@
     <nav>
       <ul>
         <li>
-          <img src="./images/blog-logo.png" alt="blog-logo" width="50px" />
+          <a href="./index.html"
+            ><img src="./images/blog-logo2.svg" alt="blog-logo" width="80px"
+          /></a>
         </li>
+        <li><a href="./index.html">Home</a></li>
         <li><a href="./pages/creator.html">Creator</a></li>
         <li><a href="./pages/subscribe.html">Subscribe</a></li>
       </ul>
@@ -63,15 +101,18 @@
       <span>inspiración</span> 💡, <span>conocimiento</span> 📕 y
       <span>entretenimiento</span> 🎬
     </h2>
-    <a href="./pages/wild-robot.html">
-      <figure>
-        <img
-          src="./images/wild-robot-cover.png"
-          alt="wild robot cover"
-          width="400px"
-        />
-      </figure>
-      <figcaption>Da click en la imagen</figcaption></a
-    >
+    <div class="card">
+      <a href="./pages/wild-robot.html">
+        <img src="./images/wild-robot-cover.png" alt="wild robot cover"
+      /></a>
+      <div class="card-description">
+        <h3>Te perdono por todo DreamWorks</h3>
+        <p>
+          Después de varios fracasos por parte de esta casa de animación vuelve
+          de manera magistral con esta obra de arte
+        </p>
+        <em>Para mayor información da click en la imágen</em>
+      </div>
+    </div>
   </body>
 </html>
