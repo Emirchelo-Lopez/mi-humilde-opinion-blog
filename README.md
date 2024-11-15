@@ -3,7 +3,6 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -12,19 +11,6 @@
 ## Introduction
 
 A critique and analysis of the book "The Wild Robot" by Peter Brown.
-
-## Project Structure
-
-```
-wild-robot_critique/
-├── README.md
-├── src/
-│   ├── analysis/
-│   ├── data/
-│   ├── scripts/
-│   └── tests/
-└── docs/
-```
 
 ## Installation
 
