@@ -1,4 +1,4 @@
-# Wild Robot Critique
+# Mi Humilde Opinión Blog
 
 ## Table of Contents
 
@@ -10,7 +10,7 @@
 
 ## Introduction
 
-A critique and analysis of the book "The Wild Robot" by Peter Brown.
+A critique and analysis of different animated movies.
 
 ## Installation
 
